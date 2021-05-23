@@ -1,0 +1,27 @@
+import turtle as t
+import random
+t.colormode(255)
+t.speed(0)
+t.pensize(5)
+for i in range (120) :
+    R=random.randint(0,255)
+    G=random.randint(0,255)
+    B=random.randint(0,255)
+    t.color(R,G,B)
+    t.circle(100)
+    t.right(3)
+
+import turtle as t
+import random
+t.colormode(255)
+t.speed(0)
+t.pensize(5)
+for i in range (50) :
+    R=random.randint(0,255)
+    G=random.randint(0,255)
+    B=random.randint(0,255)
+    t.color(R,G,B)
+    t.circle(10*i)
+    t.up()
+    t.goto(0,-10*i)
+    t.down()
